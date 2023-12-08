@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: red;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: black;
+  color: beige;
+  font-family: "Ubuntu", sans-serif;
+  height: 15%;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  height: 70%;
+  display: flex;
+}
+
+.daily {
+  height: 100%;
+  width: 33%;
+  background-color: purple;
+  color: gold;
+}
+
+.quests {
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.flexQuest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main {
+  height: 100%;
+  width: 34%;
+  background-color: rgb(2, 2, 61);
+  color: rgb(97, 202, 202);
+}
+
+.side {
+  height: 100%;
+  width: 33%;
+  background-color: rgb(148, 13, 13);
+  color: wheat;
+}
+
+footer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: black;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: rgba(245, 245, 220, 0.15);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: rgba(245, 245, 220, 0.15);
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
